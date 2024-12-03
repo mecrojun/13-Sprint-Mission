@@ -1,6 +1,7 @@
 * {box-sizing: border-box;}
 
 body {
+  margin: 0;
   width: 100%;
   font-family: Pretendard;
   min-width: 988px;
@@ -17,7 +18,11 @@ header {
 
 header img {
   height: 51px;
+}
+
+header > a {
   margin-left: 200px;
+  margin-right: 200px;
 }
 
 button:hover {
@@ -26,7 +31,6 @@ button:hover {
 
 header button {
   padding: 12px 23px;
-  margin-right: 200px;
   color: #f3f4f6;
   border-radius: 8px;
   border:none;
