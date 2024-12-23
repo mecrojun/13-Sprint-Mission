@@ -1,15 +1,10 @@
-* {
-    box-sizing: border-box;
-}
-
-
 /* index.html css */
 
 body {
     margin: 0;
 }
 
-header {
+.header {
     width: 100%;
     padding: 9px 0;
     height: 70px;
@@ -28,7 +23,7 @@ header {
     align-items: center;
 }
 
-header .logo-icon {
+.header .logo-icon {
     width: 153px;
     height: 51px;
     text-decoration: none;
@@ -36,11 +31,11 @@ header .logo-icon {
     background-size: cover;
 }
 
-header .login {
+.header .login {
     background-color: #3692FF;
 }
 
-header a {
+.header a {
     width: 128px;
     height: 48px;
     text-decoration: none;
@@ -124,7 +119,7 @@ header a {
     gap: 32px;
 }
 
-.head-section .intro h1 {
+.head-section .intro h2 {
     margin: 0;
     font-family: 'pretendard';
     font-size: 40px;
@@ -157,7 +152,7 @@ header a {
     gap: 10px;
 }
 
-.footer-section .intro h1 {
+.footer-section .intro h2 {
     margin: 0;
     width: 295px;
     height: 112px;
@@ -242,7 +237,7 @@ header a {
     color: #3692FF;
 }
 
-.info-section h1 {
+.info-section h2 {
     margin: 0;
     font-family: 'Pretendard';
     font-size: 40px;
@@ -306,22 +301,22 @@ footer {
     height: 20px;
 }
 
-.SNS-section .facebook_ic {
+.facebook_ic {
     background-image: url('images/ic_facebook.png');
     background-size: cover;
 }
 
-.SNS-section .twitter_ic {
+.twitter_ic {
     background-image: url('images/ic_twitter.png');
     background-size: cover;
 }
 
-.SNS-section .youtube_ic {
+.youtube_ic {
     background-image: url('images/ic_youtube.png');
     background-size: cover;
 }
 
-.SNS-section .instagram_ic {
+.instagram_ic {
     background-image: url('images/ic_instagram.png');
     background-size: cover;
 }
@@ -381,7 +376,7 @@ footer {
     border: 0;
 }
 
-.login .email span, .login .password span{
+.login .email label, .login .password label{
     font-family: 'Pretendard';
     font-size: 18px;
     font-weight: 700;
@@ -555,7 +550,7 @@ footer {
     gap: 16px;
 }
 
-.signUp-info span {
+.signUp-info label {
     height: 21px;
     font-family: 'Pretendard';
     font-size: 18px;
